@@ -35,7 +35,7 @@ const App = () => {
         />
         <Stack.Screen 
           name="Duyuru" 
-          component={Duyuru} // Burayı düzeltin
+          component={Duyuru} 
           options={{ title: 'Duyuru Takvimi' }} 
         />
       </Stack.Navigator>

@@ -4,7 +4,7 @@ import styles from '../component/style';
 
 const PersonnelList = ({ navigation, route }) => {
   const personelList = ['Sena Nur Güngez', 'İclal Akpınar', 'Selin Çifci', 'Şeyda Arslan', 'Ferzan Kara'];
-  const fromMesaj = route.params?.fromMesaj; // Check if navigated from Mesaj button
+  const fromMesaj = route.params?.fromMesaj; 
 
   return (
     <View style={styles.container}>

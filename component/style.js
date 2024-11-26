@@ -23,7 +23,7 @@ const styles = StyleSheet.create({
     fontSize: 26,
     fontWeight: 'bold',
     color: '#080A4F',
-    marginBottom: 40, 
+    marginBottom: 20, 
   },
   personnelTitle: {
     fontSize: 24,

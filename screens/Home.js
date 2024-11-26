@@ -5,8 +5,8 @@ import styles from '../component/style';
 const Home = ({ navigation }) => {
   return (
     <ImageBackground 
-      source={require('../assets/mobile-konya.png')} // Arka plan resmi
-      style={styles.background} // Arka plan stilini belirtiyoruz
+      source={require('../assets/mobile-konya.png')} 
+      style={styles.background} 
       resizeMode="cover"
     >
       <View style={styles.container}>
@@ -14,24 +14,25 @@ const Home = ({ navigation }) => {
         
         <TouchableOpacity
           style={styles.button}
-          onPress={() => navigation.navigate('PersonnelList')} // Navigate to PersonnelList directly for Mesai Girişi
+          onPress={() => navigation.navigate('PersonnelList')} 
         >
           <Text style={styles.HomebuttonText}>Mesai Girişi</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
           style={styles.button}
-          onPress={() => navigation.navigate('PersonnelList', { fromMesaj: true })} // Pass a flag to indicate it's for messaging
+          onPress={() => navigation.navigate('PersonnelList', { fromMesaj: true })} 
         >
           <Text style={styles.HomebuttonText}>Mesaj</Text>
         </TouchableOpacity>
 
         <TouchableOpacity
-          style={styles.button}
-          onPress={() => navigation.navigate('Announcment')} // Navigate to DuyuruTakvimi directly
-        >
-          <Text style={styles.HomebuttonText}>Duyuru Takvimi</Text> 
-        </TouchableOpacity>
+  style={styles.button}
+  onPress={() => navigation.navigate('Duyuru')} 
+>
+  <Text style={styles.HomebuttonText}>Duyuru Takvimi</Text>
+</TouchableOpacity>
+
       </View>
     </ImageBackground>
   );
