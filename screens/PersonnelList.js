@@ -3,7 +3,7 @@ import { View, Text, TouchableOpacity, ScrollView } from 'react-native';
 import styles from '../component/style';
 
 const PersonnelList = ({ navigation, route }) => {
-  const personelList = ['Sena Nur Güngez', 'İclal Akpınar', 'Selin Çifci', 'Şeyda Arslan', 'Ferzan Kara'];
+  const personelList = ['Arda Yılmaz', 'Melis Kaya','Emre Demir','Aylin Çelik','Burak Şahin'];
   const fromMesaj = route.params?.fromMesaj; 
 
   return (

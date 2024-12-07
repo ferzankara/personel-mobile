@@ -5,7 +5,7 @@ import styles from '../component/style';
 const Home = ({ navigation }) => {
   return (
     <ImageBackground 
-      source={require('../assets/mobile-konya.png')} 
+      source={require('../assets/serit.jpg')} 
       style={styles.background} 
       resizeMode="cover"
     >

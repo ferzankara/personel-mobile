@@ -75,7 +75,7 @@ const Mesai = ({ route }) => {
 
   return (
     <View style={styles.container}>
-      <ImageBackground source={require('../assets/mountain.png')} style={styles.headerBackground}>
+      <ImageBackground source={require('../assets/white.jpg')} style={styles.headerBackground}>
         <Text style={styles.title}>Mesai Girişi</Text>
       </ImageBackground>
       <TouchableOpacity onPress={() => setPersonelModalVisible(true)}>

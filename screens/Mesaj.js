@@ -20,7 +20,7 @@ const Mesaj = ({ route }) => {
 
   return (
     <View style={styles.container}>
-      <ImageBackground source={require('../assets/mobile-konya.png')} style={styles.backgroundImage}>
+      <ImageBackground source={require('../assets/serit.jpg')} style={styles.backgroundImage}>
         <Text style={styles.header}>{person.firstName} {person.lastName} ile Mesajlaşma</Text>
         
         <FlatList

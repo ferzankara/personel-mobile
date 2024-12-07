@@ -16,7 +16,7 @@ const App = () => {
         <Stack.Screen 
           name="Home" 
           component={Home} 
-          options={{ title: 'Kapsül Teknoloji Platformu' }} 
+          options={{ title: 'Personel Uygulaması' }} 
         />
         <Stack.Screen 
           name="PersonnelList" 

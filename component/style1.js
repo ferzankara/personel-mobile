@@ -93,6 +93,9 @@ export default StyleSheet.create({
   },
   backgroundImage: {
     flex: 1,
-    resizeMode: 'cover',
-  },
+    width: '100%',  
+    height: '100%', 
+    resizeMode: 'cover', 
+  }
+  
 });
