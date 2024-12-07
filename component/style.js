@@ -3,7 +3,7 @@ import { StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'rgba(255, 255, 255, 0.5)', // Arka planın biraz saydam olmasını sağlamak için
+    backgroundColor: 'rgba(255, 255, 255, 0.5)', 
     padding: 1,
   },
   headerBackground: {
@@ -55,14 +55,14 @@ const styles = StyleSheet.create({
   },
   Homebutton: {
     backgroundColor: '#3B9EC5',
-    paddingVertical: 20, // Yükseklik ayarlandı
-    paddingHorizontal: 30, // Genişlik ayarlandı
+    paddingVertical: 20, 
+    paddingHorizontal: 30, 
     alignItems: 'center',
-    justifyContent: 'center', // İçeriği ortalamak için
+    justifyContent: 'center', 
   },
   HomebuttonText: {
-    color: '#fff', // Metin rengi beyaz
-    fontSize: 24, // Metin boyutu
+    color: '#fff', 
+    fontSize: 24, 
     fontWeight: 'bold',
   },
   modalContainer: {
@@ -132,7 +132,7 @@ const styles = StyleSheet.create({
     marginVertical: 5,
   },
   background: {
-    flex: 1, // Arka planın tam boyutlu görünmesi için
+    flex: 1, 
   },
 });
 
